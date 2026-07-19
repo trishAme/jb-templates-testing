@@ -20,4 +20,4 @@ JAVA_HOME=<path-to-JDK-21> ./gradlew test
 
 ## Execution Results
 
-- [Latest test report](execution-results/index.html)
+- [Latest test report](execution-results/README.md)
