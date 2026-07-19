@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FileAndCodeTemplatesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-19T19:39:13.073Z" time="303.224">
+  <properties>
+    <property name="ide.under.test" value="IntelliJ IDEA Community 2024.3"/>
+    <property name="command" value="JAVA_HOME=&lt;path-to-JDK-21&gt; GRADLE_USER_HOME=&lt;gradle-cache&gt; ./gradlew test --no-daemon"/>
+  </properties>
+  <testcase name="Edit Kotlin Class template" classname="FileAndCodeTemplatesTest" time="191.263"/>
+  <testcase name="Reset Kotlin Class template" classname="FileAndCodeTemplatesTest" time="73.176"/>
+  <testcase name="Reject duplicate Template name" classname="FileAndCodeTemplatesTest" time="38.766"/>
+</testsuite>

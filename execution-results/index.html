@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileAndCodeTemplatesTest Report</title>
+    <style>
+        body {
+            color: #1f2328;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+        }
+
+        a {
+            color: #2563eb;
+        }
+
+        .breadcrumb {
+            color: #59636e;
+            margin-bottom: 28px;
+        }
+
+        .summary {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28px;
+            margin-bottom: 36px;
+        }
+
+        .stats {
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(90px, 1fr));
+            min-width: 460px;
+            padding: 18px 22px;
+            text-align: center;
+        }
+
+        .stat strong {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .success {
+            background: #c8e6c9;
+            border: 2px solid #188038;
+            border-radius: 8px;
+            color: #008000;
+            min-width: 120px;
+            padding: 18px 22px;
+            text-align: center;
+        }
+
+        .success strong {
+            display: block;
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+
+        .tabs {
+            border-bottom: 1px solid #d0d7de;
+            margin-bottom: 0;
+        }
+
+        .tab {
+            background: #e0f7fa;
+            border: 1px solid #b6c2cf;
+            border-bottom: 0;
+            border-radius: 6px 6px 0 0;
+            display: inline-block;
+            padding: 8px 12px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border-bottom: 1px solid #d0d7de;
+            padding: 6px 18px 6px 0;
+            text-align: left;
+        }
+
+        th:nth-child(3),
+        th:nth-child(4),
+        td:nth-child(3),
+        td:nth-child(4) {
+            white-space: nowrap;
+        }
+
+        .passed {
+            color: #008000;
+        }
+
+        .meta {
+            color: #59636e;
+            font-size: 14px;
+            margin-top: 48px;
+        }
+
+        code {
+            background: #f6f8fa;
+            border-radius: 4px;
+            padding: 2px 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class FileAndCodeTemplatesTest</h1>
+    <div class="breadcrumb">all &gt; default-package &gt; FileAndCodeTemplatesTest</div>
+
+    <div class="summary">
+        <div class="stats">
+            <div class="stat"><strong>3</strong>tests</div>
+            <div class="stat"><strong>0</strong>failures</div>
+            <div class="stat"><strong>0</strong>errors</div>
+            <div class="stat"><strong>5m03.22s</strong>duration</div>
+        </div>
+        <div class="success">
+            <strong>100%</strong>
+            successful
+        </div>
+    </div>
+
+    <div class="tabs">
+        <span class="tab">Tests</span>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Test</th>
+                <th>Method name</th>
+                <th>Duration</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="passed">Edit Kotlin Class template</td>
+                <td class="passed">editKotlinClassTemplateAndCreateClass(TestInfo)</td>
+                <td class="passed">3m11.26s</td>
+                <td class="passed">passed</td>
+            </tr>
+            <tr>
+                <td class="passed">Reset Kotlin Class template</td>
+                <td class="passed">resetKotlinClassTemplateToDefault(TestInfo)</td>
+                <td class="passed">1m13.18s</td>
+                <td class="passed">passed</td>
+            </tr>
+            <tr>
+                <td class="passed">Reject duplicate Template name</td>
+                <td class="passed">duplicateTemplateNameShowsValidationError(TestInfo)</td>
+                <td class="passed">38.77s</td>
+                <td class="passed">passed</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="meta">
+        <p>Command: <code>JAVA_HOME=&lt;path-to-JDK-21&gt; GRADLE_USER_HOME=&lt;gradle-cache&gt; ./gradlew test --no-daemon</code></p>
+        <p>IDE under test: IntelliJ IDEA Community 2024.3</p>
+        <p>Generated from sanitized Gradle test results on July 19, 2026.</p>
+        <p>Machine-specific paths, hostnames, process IDs, and IDE logs are intentionally omitted.</p>
+        <p>Machine-readable summary: <a href="TEST-FileAndCodeTemplatesTest.xml">TEST-FileAndCodeTemplatesTest.xml</a></p>
+    </div>
+</body>
+</html>

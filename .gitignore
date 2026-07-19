@@ -1,0 +1,10 @@
+.gradle/
+.idea/
+.intellijPlatform/
+.kotlin/
+build/
+out/
+allure-results/
+/*.iml
+!src/test/resources/sampleProjects/kotlin-template-project/.idea/
+!src/test/resources/sampleProjects/kotlin-template-project/.idea/**
